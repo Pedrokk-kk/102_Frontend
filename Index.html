@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal JN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #0c0101;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #01070c;
+    margin-bottom: 10px;
+}
+
+/* Cabeçalho */
+.site-header {
+    background-color: #003580;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(6, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.site-header nav {
+    margin-top: 10px;
+}
+
+.site-header nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.site-header nav a:hover {
+    color: #00aaff;
+}
+
+/* Seções */
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+}
+
+section h2 {
+    border-bottom: 3px solid #003580;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #003580;
+}
+
+/* Artigos */
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #003580;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+article header h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+article p {
+    margin: 0;
+    color: #0a0000;
+    font-size: 1rem;
+}
+
+article img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003580;
+    color: #030000;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+    color: black;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .site-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    article {
+        padding: 10px;
+    }
+
+    article header h3 {
+        font-size: 1.2rem;
+    }
+}
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Rede_Globo_logo.svg" alt="Logo Jornal Nacional" class="logo">
+            <h1>Portal JN</h1>
+        </div>
+        <nav>
+            <a href="./Index.html">Home</a>
+            <a href="#economia">Economia</a>
+            <a href="#politica">Política</a>
+        </nav>
+    </header>
+    <main>
+        <section id="economia" class="economia">
+            <h2>Aliens existem?</h2>
+            <article>
+                <header>
+                    <time class="data">01/01/2025</time>
+                    <h3>JN NEWS</h3>
+                </header>
+                <p>Nessa manhã é mostrada uma foto tirada que prova que aliens existem</p>
+                <img src="https://i.redd.it/7fgqeb731ah81.jpg" alt="Alienígena" >
+            </article>
+            <article>
+                <section id="shibuyadestroyed" class="shibuyadestroyed">
+                    <h2>Shibuya destruída</h2>
+                <header>
+                    <time class="data">01/01/2025</time>
+                    <h3>JN NEWS</h3>
+                </header>
+                <p>Shibuya é destruida, e o japão culpa... terroristas?</p>
+                <img src="https://a.storyblok.com/f/178900/1920x1080/8b326a1a5e/shibuyadestroyed.jpg/m/filters:quality(95)format(webp)" alt="Shibuya ">
+            </article>
+        </section>
+        <section id="politica" class="politica">
+            <h2>Política</h2>
+            <article>
+                <header>
+                    <time class="data">01/01/2025</time>
+                    <h3>JN NEWS</h3>
+                </header>
+                <p>Japão anuncia o seu novo lider</p>
+                <img src="https://i305.photobucket.com/albums/nn219/fpnyc/20th-century-boys-800-75.jpg" alt="JN NEWS" >
+            </article>
+        </section>
+        <section id="noticias" class="noticias">
+            <h2>Robôs com personalidade?</h2>
+            <article>
+                <header>
+                    <time class="data">01/01/2025</time>
+                    <h3>JN NEWS</h3>
+                </header>
+                <p>Robôs avançados são anunciados nessa manhã, a proposta deles é terem personalidades e ajudarem os humanos</p>
+                <img src="https://i.pinimg.com/1200x/52/a7/e7/52a7e7edc2779f25112f9ee4e2a4d71e.jpg" alt="JN NEWS" >
+            </article>
+        </section>
+
+        <section id="Revolta" class="Revolta">
+            <h2>Robô rebelde</h2>
+            <article>
+                <header>
+                    <time class="data">01/01/2025</time>
+                    <h3>JN NEWS</h3>
+                </header>
+                <p>Um robô se revolta </p>
+                <img src="https://i.pinimg.com/1200x/99/f7/66/99f766ff34d79e64d94ec86cb50f9086.jpg" alt="JN NEWS" >
+            </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jornal Nacional. Todos os direitos reservados. (Se tentar copiar vai tomar paulada)</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVI5YOOOC-Rn2lVYK6z4P9IwrIeEQ_RH9ZZ5Ei4e4S3P9FXeYUthWksJ11TxteBcW9Riw&usqp=CAU" alt="Logo Jornal Nacional" class="logo">
+</footer>
+</body>
+</html>

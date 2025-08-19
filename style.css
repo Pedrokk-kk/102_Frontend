@@ -1,0 +1,254 @@
+*{
+    color: rgba(0, 10, 1, 0);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header, h1{
+    background-color:  #003580;
+    padding: 16px 8px;
+    color: #fff;
+}
+header li{
+    display: inline;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articles article img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.creation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header li a{
+    text-decoration: none;
+    color: #0f0101;
+    padding: 10px;
+}
+
+header li a:hover{
+    background-color: #e2e6ea;
+    border-radius: 5px;
+}
+
+
+header li a.active{
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.criation-dates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.creation-date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.creation-date h2{
+    margin-bottom: 10px;
+}
+.creation-date p{
+    margin: 5px 0;
+}
+.creation-date span{
+    font-weight: bold;
+}
+.creation-date a{
+    text-decoration: none;
+    color: #007bff;
+}
+.creation-date a:hover{
+    text-decoration: underline;
+}
+.creation-date a.active{
+    color: #0056b3;
+}
+.creation-date a.active:hover{
+    text-decoration: none;
+}
+
+.creation-date img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.creation-date video{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.creation-date audio{
+    width: 100%;
+    margin-top: 10px;
+}
+.creation-date iframe{
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.creation-date .description{
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+.creation-date .description p{
+    margin: 0;
+}
+.creation-date .description a{
+    color: #007bff;
+    text-decoration: none;
+}
+.creation-date .description a:hover{
+    text-decoration: underline;
+}
+
+.creation-date .description a.active{
+    color: #0056b3;
+}
+.creation-date .description a.active:hover{
+    text-decoration: none;
+}                           
+
+
+.creation-date .description img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.creation-date .description video{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.creation-date .description audio{
+    width: 100%;
+    margin-top: 10px;
+}
+.creation-date .description iframe{
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.creation-date .description .link{
+    color: #007bff;
+    text-decoration: none;
+}
+.creation-date .description .link:hover{
+    text-decoration: underline;
+}
+.creation-date .description .link.active{
+    color: #0056b3;
+}
+.creation-date .description .link.active:hover{
+    text-decoration: none;
+}
+.creation-date .description .link img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.creation-date .description .link video{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.creation-date .description .link audio{
+    width: 100%;
+    margin-top: 10px;
+}
+.creation-date .description .link iframe{
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
+footer p{
+    margin: 0;
+    color: #666;
+}
+footer a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.articles article{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.articles{
+display: flex:
+}
+
+
+.article article{
+heigth: 160px:
+
+}
